@@ -1,0 +1,11 @@
+{
+  "store": "Sepatu Kita",
+  "wa": "6281234567890",
+  "logo": "",
+  "products": [
+    { "id": "p1", "name": "Court Classic", "brand": "Nike", "sizes": [39, 40, 41, 42], "color": "Putih", "hex": "#f2f2f2", "price": 850000, "img": "", "created": 1764000000000 },
+    { "id": "p2", "name": "Runner 90", "brand": "Adidas", "sizes": [40, 41, 42, 43], "color": "Hitam", "hex": "#1c1c1c", "price": 1200000, "img": "", "created": 1764100000000 },
+    { "id": "p3", "name": "Street Low", "brand": "Converse", "sizes": [38, 39, 40], "color": "Merah", "hex": "#c8321e", "price": 650000, "img": "", "created": 1764200000000 },
+    { "id": "p4", "name": "Trail Grip", "brand": "New Balance", "sizes": [41, 42, 43, 44], "color": "Biru", "hex": "#2b55c9", "price": 1100000, "img": "", "created": 1764300000000 }
+  ]
+}
