@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Katalog Sepatu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1 id="storeName">Sepatu Kita</h1>
+      <p>Pilih merk, size, dan warna. Tekan ORDER untuk memesan lewat WhatsApp.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <form class="filters" id="filters" aria-label="Filter produk">
+      <input class="ctl" id="q" type="search" placeholder="Cari nama atau merk" aria-label="Cari">
+      <select class="ctl" id="fBrand" aria-label="Merk"></select>
+      <select class="ctl" id="fSize" aria-label="Size"></select>
+      <select class="ctl" id="fColor" aria-label="Warna"></select>
+      <button class="btn ghost" type="reset">Reset</button>
+    </form>
+    <p id="count" aria-live="polite"></p>
+    <section class="grid" id="grid"></section>
+  </main>
+
+  <footer class="wrap"><a href="admin.html">Admin</a></footer>
+
+  <script src="shared.js"></script>
+  <script src="user.js"></script>
+</body>
+</html>
